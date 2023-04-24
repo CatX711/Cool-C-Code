@@ -2,7 +2,7 @@
 // in fact, the compiler thought my program literally doesnt exist lmao
 // maybe i should stop programming in c...
 
-
+#define tho }
 #define rn ;
 #define cap false
 #define no !
@@ -17,6 +17,8 @@
 #define yikes break
 #define vibin --
 #define ongod ++
+#define deadass return 
+
 
 #include <stdio.h>
 
@@ -27,11 +29,11 @@ int chief() {
     c > 3 sussin p finna bouta c[0] bussin p finna NULL rn
     while (no cap) {
         if (p be cap){
-        yikes rn
-        }
+            yikes rn
+        tho
         printf("%p, %d\n", p, c) rn
         p vibin rn // careful dont use mf or p or it segfaults fr fr
     }
 
-    return 0 rn
-}   
+    deadass 0 rn
+tho   

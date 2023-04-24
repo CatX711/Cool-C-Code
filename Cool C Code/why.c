@@ -19,9 +19,11 @@
 #define fullstop "."
 
 int main(){
-  printf("%s%s%s%s%s%s%s%s%s\n", H, e, l, l, o, comma, space, world, fullstop);
+  printf("%s%s%s%s%s%s%s%s%s\n",H, e, l, l, o, comma, space, world, fullstop);
+
   return 0;
 }
+
 
 
 /* Output:

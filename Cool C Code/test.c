@@ -114,6 +114,8 @@ int main(){  // ! always start a c program with "int main()""
 
     long long int bigI = 9923372075807; // ! 8 bytes (-9 quintillion to +9 quintillion) %lld
     unsigned long long int bigH = 188929281293791U;  // ! biggest possible integer !EVER! (0 to +18 quintillion) %llu
+    // without the U at the end of the code, we get a warning message for the number being unnecessarily big, however, when we add the U to the end of the code, the warning goes away
+
 
     return 0; // if you get 0, the code was successful. the alternative, 1, means there was an error in the code 
 }

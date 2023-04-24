@@ -6,7 +6,9 @@ int main(){
 
     const float PI = 3.13159; // a good practice is to make all the letters of a constant variable capital
 
-    printf("%f", PI);
+    printf("%.5f", PI);
+
+    // .5 changes output from 3.131590 to 3.13159
 
     return 0;
 }
