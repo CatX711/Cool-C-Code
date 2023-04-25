@@ -8,6 +8,7 @@ int main(){
     int z = 20;
     int y = 5;
     int j = 4;
+    int b = 16;
 
     x = x + 2; // increment by 2
     // x+=2; <-- shortcut increment by 2 
@@ -21,5 +22,15 @@ int main(){
     j = j % 2;
     // j%=2; <-- shortcut
 
-    printf("%d", x);
+    b = b / 4;
+    // b/=4; <-- shortcut
+
+    printf("%d, %d, %d, %d, %d", x, z, y, j, b);
+
+    
+    // OUTPUT:
+    // 12, 17, 50, 0, 4
+
+
+    return 0;
 }
