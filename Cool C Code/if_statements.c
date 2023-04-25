@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
+// my first experience with if statements
+
 int main(){
 
     // i do not currently understand the getchars, however,
