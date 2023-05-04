@@ -6,7 +6,22 @@
 // essentials
 #define START int main() // starts program
 #define OUTPUT(...) printf(__VA_ARGS__) // printf
-#define EXIT return 0 // return keyword
+#define END return 0 // return keyword
+#define INPUT(type, var) scanf("%" #type, &var) // use the var names, not % followed by the var type, as it will not work
+#define SWITCHF(expression) \
+    switch (expression) { \
+        case
+
+#define CASE(value) \
+        value:
+
+#define DEFAULT \
+        default:
+
+#define END_SWITCH \
+    }
+
+#define EXIT break    
 
 // mathematic operators
 #define ADD(...) \
@@ -57,22 +72,31 @@
 #define SQUARE(x) ((x) * (x))
 
 // ease of life 
-#define NEWLINE printf("\n\n") // prints a new line
+#define NEWLINE_LONG printf("\n\n") // guaranteed prints a new line if one newline isnt working
+#define NEWLINE printf("\n")
 
-// other things
-#define END break
 
 START {
     OUTPUT("\nHello, world");
-    NEWLINE;
+    NEWLINE_LONG;
     
     int sum = ADD(1, 2, 3, 4);
     OUTPUT("The sum is: %d", sum);
-    NEWLINE;
+    NEWLINE_LONG;
     
     int product = MULTIPLY(1, 2, 3, 4);
     OUTPUT("The product is: %d", product);
+    NEWLINE_LONG;
+
+    char name[] = "";
+
+    OUTPUT("Hello there, what is your name? ");
+    INPUT(s, name);
     NEWLINE;
+    OUTPUT("Hey there,", name, "!");
     
-    EXIT;
+
+    END;
 }
+
+// input is broken lmao

@@ -21,4 +21,6 @@ int main(){
     printf("\n\nSide C: %lf", C);
 
     return 0;
+
 }
+

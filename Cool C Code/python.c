@@ -3,6 +3,7 @@
 // random python-like macros
 // all written by me lol
 
+
 // printf without the need for \n
 #define print(...) printf(__VA_ARGS__); printf("\n");
 
